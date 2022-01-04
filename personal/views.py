@@ -1,0 +1,20 @@
+from django.shortcuts import render
+
+
+def home_screen_view(request):
+	context = {}
+	return render(request, "personal/home2.html", context)
+
+def temp(request):
+	context = {}
+	return render(request, "personal/temp.html", context)
+
+
+
+def dashboard(request):
+	context = {}
+	return render(request, "personal/dashboard.html", context)
+
+def home_proj(request):
+	context = {}
+	return render(request, "personal/home.html", context)

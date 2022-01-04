@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<style> 
+  #main{
+    display: flex;
+  }
+  #main-col {
+    width: 1400px;
+    height: 100px;
+    padding: 5px;    
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+  
+  #main-row {
+    width: 100px;
+    height: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  #main-col div {
+    width: 90px;
+    height: 70px;
+  }
+  #main-row div {
+    width: 190px;
+    height: 90px;
+  }
+  </style>
+  </head>
+
+  <body>
+          <div id="main-col">
+            <div style="padding:15px;background-color:coral;font-size:20px;font-weight:bolder;">Year 1</div>
+            <div></div>        
+            <div style="padding:15px;background-color:lightgreen;font-size:20px;font-weight:bolder;">Year 2</div>
+          </div>
+          <div id="main-row">
+            <div style="font-size:20px;font-weight:bolder;margin-left:340px;">No.of Projects </div>        
+            <div></div>
+            <div style="font-size:20px;font-weight:bolder;margin-left:340px;">No.of Publications</div>
+            <div></div>
+            <div style="font-size:20px;font-weight:bolder;margin-left:340px;">No.of Seminers</div>
+            <div></div>
+            <div style="font-size:20px;font-weight:bolder;margin-left:340px;">No.of Books</div>
+            <div></div>
+            <div style="font-size:20px;font-weight:bolder;margin-left:340px;">No.of Patents</div>
+            <div></div>
+            <div style="font-size:20px;font-weight:bolder;margin-left:340px;">No.of Awards</div>
+          
+          
+          
+          
+          
+          </div>
+        
+      
+  </body>  
+
+
+{% endblock content %}
