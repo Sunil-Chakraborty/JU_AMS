@@ -1,0 +1,70 @@
+Pushing data in new repository.
+Go inside folder in Gitbash and issue the followings:
+git init
+git add .
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/Sunil-Chakraborty/JU_AMS.git
+git push -u origin master
+
+
+create a new repository on the command line
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sunil-Chakraborty/testProject.git
+git push -u origin main
+
+
+https://github.com/Sunil-Chakraborty/faculty.git
+https://github.com/Sunil-Chakraborty/JU_AMS.git
+
+.gitignore
+.DS_Store
+*.pyc
+
+git status
+git add -A
+git commit -m "Store and Carts functionality upto course 59"
+git push origin main
+
+
+
+www.git-scm.com
+Your Identity
+$ git config --global user.name "Sunil"
+$ git config --global user.email to.sunilc@gmail.com
+
+Git bash
+cd d:
+cd greatkart
+source /d/greatkart/env/scripts/activate
+source /d/greatkart/env/scripts/deactivate
+
+New repository in github.com
+greatkart-django
+
+
+
+Reinitialistion of git
+rm -rf .git
+initialise git
+git init
+
+https://github.com/Sunil-Chakraborty/
+https://github.com/Sunil-Chakraborty/test-project.git
+to run git bash:
+source myenv/scripts/activate
+
+Process to push via git bash
+git status
+git add -A
+git commit -m "Store and Carts functionality upto course 59"
+git push origin main
+
+To check :
+https://github.com/Sunil-Chakraborty/greatkart-django.git
+
+Faculty git link
+https://github.com/dev-rathankumar/greatkart-course
